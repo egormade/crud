@@ -85,7 +85,7 @@ unset($_SESSION['msg']);
 
 <select id="estados" class="form-select" name="estado" aria-label="Floating label select example" required>
 
-<option selected>Selecione seu estado</option>
+<option value="">Selecione seu estado</option>
 <?php
 $op_estado = mysqli_query($conn,"SELECT * FROM estado");
 while($array_estado = mysqli_fetch_assoc($op_estado)){
@@ -103,7 +103,7 @@ echo "<option value=".$array_estado['id_estado'].">".utf8_encode($array_estado['
 <div class="form-floating">
 
 <select id="cidades" class="form-select"  name="cidade" aria-label="Default select example" required>
-<option>Selecione sua cidade</option>
+<option value="">Selecione sua cidade</option>
 
 </select>
 <label for="floatingInputInvalid">Cidade</label>
@@ -114,7 +114,8 @@ echo "<option value=".$array_estado['id_estado'].">".utf8_encode($array_estado['
 <br>
 <!--END SELECT CIDADE-->
 
-<button type="submit" class="btn btn-outline-primary mb-3" >Cadastrar</button>
+
+<button type="submit" class="btn btn-primary btn-lg mb-4" >Cadastrar</button>
 
 </form>
 
