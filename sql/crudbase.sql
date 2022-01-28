@@ -86,7 +86,7 @@ CREATE TABLE `usuario` (
   PRIMARY KEY (`id_usuario`,`email_usuario`,`celular_usuario`),
   UNIQUE KEY `email_usuario_UNIQUE` (`email_usuario`),
   UNIQUE KEY `celular_usuario_UNIQUE` (`celular_usuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=104 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=119 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -95,7 +95,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'Igor Alves Medeiros','egormedeiros@gmail.com','(11) 99804-9440',4713,25,'27/01/2022 14:10'),(2,'Alessandra Alves Medeiros','alemedeiros@gmail.com','(11) 97534-8999',2,1,'27/01/2022 14:11');
+INSERT INTO `usuario` VALUES (1,'Yasmin Marques ','yasmin_marques@gmail.com','(11) 98233-9933',4758,25,'25/01/2022 18:32'),(2,'Rubens Ricardo Junior','rubens_me@icloud.com','(11) 98833-7733',5110,25,'25/01/2022 18:28'),(3,'Mariana Melletti','marimeletti@gmail.com','(19) 92827-2922',4836,25,'26/01/2022 18:27'),(4,'Maria Julia Medeiros','marimari@hotmail.com','(21) 93097-2890',3631,19,'26/01/2022 18:27'),(5,'Ricardo Thesouro','ricardothesouro@gmail.com','(11) 96847-4815',4713,25,'26/01/2022 18:26'),(6,'Pedro Pereira de Medeiros','pedro@gmail.com','(11) 94784-7279',5183,25,'26/01/2022 18:26'),(7,'Thiago Costa Dantas','thiagocdantas@gmail.com','(11) 95913-5274',5038,25,'27/01/2022 18:26'),(8,'Alessandra Alves Medeiros','alemedeiros@gmail.com','(11) 97534-8999',4653,25,'27/01/2022 14:11'),(9,'Igor Alves Medeiros','egormedeiros@gmail.com','(11) 99804-9440',4713,25,'27/01/2022 14:10'),(114,'Gustavo Oliveira','gusta_oliveira12@gmail.com','(11) 99837-3464',4934,25,'27/01/2022 18:35'),(116,'Luciano Estavam','lu.estavam@gmail.com','(49) 92834-6282',4422,24,'28/01/2022 11:09'),(118,'Daniela Herculano Sarai','daniela.herculado@itau.com.br','(11) 99938-3788',126,3,'28/01/2022 11:20');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -108,4 +108,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-01-27 14:38:06
+-- Dump completed on 2022-01-28 11:48:27
